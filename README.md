@@ -35,16 +35,34 @@
 - **Master the Big O notation** for common operations.
 - **Amortized analysis**: Understand how average performance can differ from worst-case.
 
-### Mutable and Non-Mutable Types
+---
+
+## Mutable and Non-Mutable Types
 
 - Know which types are mutable (`list`, `dict`, `set`, `deque`) and which are immutable (`tuple`, `str`, `namedtuple`).
+
+---
+
+##  Lists (Dynamic Arrays)
+
+- **Stores references**, not objects – supports heterogeneous types
+- **Use case:** Best for random access and growing lists
+
+
+
+---
+
+## Tuples (Immutable Sequences)
+
+- **Immutable sequences** with O(1) access time
+- **Memory efficient** compared to lists for fixed data
+- **Access by index**: O(1) – like lists, stored in contiguous memory
 
 ---
 
 ## Dictionaries (Hash Maps)
 
 - **Get/Set operations:** O(1) average case, O(n) worst case
-- **Key lookup and insertion** are fundamental for many interview problems
 - **Understanding hash collision handling** is crucial
 
 ---
@@ -54,13 +72,6 @@
 - **Add/Remove/Contains:** O(1) average case
 - **Set operations** (union, intersection): O(len(s1) + len(s2))
 - **Essential for** deduplication and membership testing
-
----
-
-## Tuples
-
-- **Immutable sequences** with O(1) access time
-- **Memory efficient** compared to lists for fixed data
 
 ---
 
